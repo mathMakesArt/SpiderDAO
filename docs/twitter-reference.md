@@ -37,13 +37,13 @@ TODO:
 ## **TWITTER API USAGE GUIDELINES**
 
 1. Unless otherwise specified, the following rules will apply
-  1. API queries will take at most a single input value.
-    1. In cases where multiple input values are provided, should maximize the inputs per requests wherever possible
-  2. API queries will return multiple output values
-  3. API queries do not require a pagination input value
-  4. Multi-return API queries return the maximum possible count by default
-  5. Multi-return API queries are unbounded (beyond single-page-per-return limits)
-  6. Unbounded multi-return API queries accept a pagination_token input variable (the page number to load)
+    1. API queries will take at most a single input value.
+        1. In cases where multiple input values are provided, should maximize the inputs per requests wherever possible
+    2. API queries will return multiple output values
+    3. API queries do not require a pagination input value
+    4. Multi-return API queries return the maximum possible count by default
+    5. Multi-return API queries are unbounded (beyond single-page-per-return limits)
+    6. Unbounded multi-return API queries accept a pagination_token input variable (the page number to load)
 
 2. EXCEPTIONS to the above rules:
     1. The queries which support multiple simultaneous inputs are:
